@@ -52,6 +52,14 @@
     border-radius: 5px;
 }
 
+#bestBand{
+    text-shadow: px px 5px black;
+}
+
+#mrHarrison{
+    color: #FFF3CD;
+    text-shadow: px px 5px black;
+}
 
 @media screen and (min-width: 768px) {
     .bg-hero{
@@ -61,7 +69,7 @@
     }  
     .coolCard{
         position: relative;
-        top: 6em;
+        top: 7em;
     }
 }
 
