@@ -1,3 +1,7 @@
+:root{
+    --light-text: #FFF3CD;
+}
+
 
 .bebas-neue-regular {
     font-family: "Bebas Neue", sans-serif;
@@ -57,8 +61,13 @@
 }
 
 #mrHarrison{
-    color: #FFF3CD;
+    color: var(--light-text);
     text-shadow: px px 5px black;
+}
+
+.album{
+    color: var(--light-text);
+    font-style: italic;
 }
 
 @media screen and (min-width: 768px) {
@@ -70,6 +79,10 @@
     .coolCard{
         position: relative;
         top: 7em;
+    }
+    .beatGif{
+        object-fit: cover;
+        object-position: 100% 100%;
     }
 }
 
