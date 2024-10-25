@@ -1,15 +1,16 @@
 :root{
     --light-text: #FFF3CD;
+    --main-font: "Bebas Neue", sans-serif;
 }
 
-
-.bebas-neue-regular {
-    font-family: "Bebas Neue", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: large;
+.logoBeat{
+    font-family: var(--main-font);
     text-decoration: underline;
-    }
+}
+
+.nameBeat{
+    font-family: var(--main-font);
+}
 
 .subButton{
     text-decoration: none;
@@ -68,6 +69,7 @@
 .album{
     color: var(--light-text);
     font-style: italic;
+    font-size: x-large;
 }
 
 @media screen and (min-width: 768px) {
