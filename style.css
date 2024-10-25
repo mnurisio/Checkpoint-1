@@ -1,0 +1,79 @@
+
+.bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: large;
+    text-decoration: underline;
+    }
+
+.subButton{
+    text-decoration: none;
+}
+
+.subMarine{
+    font-size: xx-large;
+}
+
+
+.firstBox{
+    padding: 7em;
+    margin: 1em 6em 6em 6em;
+    background-color: rgba(164, 164, 73, 0.687);
+}
+
+.description{
+    text-shadow: 0px 0px 5px black;
+    margin-bottom: 1em;
+    font-size: 1.5em;
+}
+
+.coolText{
+    text-shadow: 0px 0px 5px black;
+    margin-bottom: 2em;
+    text-decoration: underline;
+}
+
+
+.enterInfo{
+    text-decoration: underline;
+    padding-bottom: 1em;
+}
+
+.infoBox{
+    padding: 1em;
+    border: 3px solid rgb(204, 203, 203);
+    border-radius: 5px;
+    margin: 1em 1em 1em 0;
+}
+.phoneBox{
+    padding: 1em;
+    border: 5px solid gray;
+    border-radius: 5px;
+}
+
+
+@media screen and (min-width: 768px) {
+    .bg-hero{
+        background-image: url(https://images.unsplash.com/photo-1613205285652-01277261bbac?q=80&w=3270&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+        background-size: cover;
+        background-position: 10% 10%;
+    }  
+    .coolCard{
+        position: relative;
+        top: 6em;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .imgPennyLane{
+        background-image: url(https://media.istockphoto.com/id/155147284/photo/a-sign-for-the-city-of-liverpools-penny-lane.jpg?s=2048x2048&w=is&k=20&c=OLi6KCv9qAlAdFsi9eu_M_q4TknPh11LmqCt2ZuWiBk=);
+        background-size: cover;
+        background-position: 100% 100%;
+        padding: 10em;
+    }
+        .beatDescription{
+            display: none;
+        } 
+}
+
