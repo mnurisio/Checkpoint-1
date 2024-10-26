@@ -2,10 +2,12 @@
     --light-text: #FFF3CD;
     --danger-text: #FFC107;
     --main-font: "Bebas Neue", sans-serif;
+    --shadow: 0px 0px 5px black;
 }
 
 .logoBeat{
     font-family: var(--main-font);
+    font-weight: bolder;
     text-decoration: underline;
 }
 
@@ -21,7 +23,6 @@
     font-size: xx-large;
 }
 
-
 .firstBox{
     padding: 7em;
     margin: 1em 6em 6em 6em;
@@ -29,13 +30,13 @@
 }
 
 .description{
-    text-shadow: 0px 0px 5px black;
+    text-shadow: var(--shadow);
     margin-bottom: 1em;
     font-size: 1.5em;
 }
 
 .coolText{
-    text-shadow: 0px 0px 5px black;
+    text-shadow: var(--shadow);
     margin-bottom: 2em;
     text-decoration: underline;
 }
@@ -58,17 +59,22 @@
     border-radius: 5px;
 }
 
-#bestBand{
-    text-shadow: px px 5px black;
+.bestBand{
+    text-shadow: var(--shadow)
 }
 
-#mrHarrison{
+.mrHarrison{
     color: var(--light-text);
-    text-shadow: px px 5px black;
+    text-shadow: var(--shadow)
+}
+
+.beatGif{
+    background-color: rgb(202, 201, 201);
 }
 
 .album{
     color: var(--light-text);
+    font-family: var(--main-font);
     font-style: italic;
     font-size: x-large;
 }
@@ -79,16 +85,22 @@
     font-weight: bold;
 }
 
-.octoGarden{
+.ringoName{
+    font-size: large;
+}
+
+.lyricQuote{
     font-style: italic;
     font-size: large;
+    font-weight: 400;
+    font-family: var(--main-font);
 }
 
 @media screen and (min-width: 768px) {
     .bg-hero{
         background-image: url(https://images.unsplash.com/photo-1613205285652-01277261bbac?q=80&w=3270&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
         background-size: cover;
-        background-position: 10% 10%;
+        background-position: 10% 70%;
     }  
     .coolCard{
         position: relative;

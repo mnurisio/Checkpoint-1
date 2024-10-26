@@ -15,8 +15,7 @@
 <body>
     <header class="container-fluid sticky-top bg-dark">
         <nav class="row bg-dark justify-content-evenly p-4 p-md-3">
-            <div
-                class="col-12 col-md-2 text-warning fw-bold text-center pb-md-0 pb-3 align-content-center pe-md-5 logoBeat">
+            <div class="col-12 col-md-2 text-warning text-center pb-md-0 pb-3 align-content-center pe-md-5 logoBeat">
                 THE BEATLES</div>
             <div class="col-6 col-md-2 btn btn-outline-warning align-content-center nameBeat">PAUL</div>
             <div class="col-6 col-md-2 btn btn-outline-warning align-content-center nameBeat">JOHN</div>
@@ -83,8 +82,9 @@
                     and I want a pair</h5>
             </div>
             <div class="col-12 col-md-5 align-content-center order-md-first ps-md-5 py-5 px-4">
-                <h3 id="bestBand" class="fw-bold text-warning">Best Band of All Time!</h3>
-                <p id="mrHarrison">Mr. Harrsion has the best selling album out of any Beatle. All songs within the album
+                <h3 class="fw-bold text-warning bestBand">Best Band of All Time!</h3>
+                <p class="mrHarrison">Mr. Harrsion has the best selling album out of any Beatle. All songs within the
+                    album
                     are songs that
                     Paul and John did not let him record for the band</p>
             </div>
@@ -92,7 +92,7 @@
     </main>
     <main class="container-fluid bg-dark">
         <section class="row text-warning">
-            <div class="col-12 col-md-5 p-4 text-md-center bg-light beatGif">
+            <div class="col-12 col-md-5 p-4 text-md-center beatGif">
                 <img class="img-fluid shadow" src="https://media2.giphy.com/media/xT0GqpRWUoYlUSQpaM/giphy.gif"
                     alt="Fab Four waving">
             </div>
@@ -125,42 +125,65 @@
     </main>
     <main class="container-fluid bg-secondary">
         <section class="row">
-            <div class="col-12 col-md-4 p-md-5 p-5 my-md-3 order-md-2 align-content-center">
-                <div class="bg-light text-center p-md-3 p-3 shadow">
+            <div class="col-12 col-md-4 p-md-5 p-4 my-md-3 order-md-2 align-content-center">
+                <div class="bg-light text-center p-md-3 px-3 py-5 shadow">
                     <div class="row text-center px-md-3">
-                        <div class="col-md-6 text-end p-md-2 ringoIcon">
+                        <div class="col-6 col-md-6 text-end p-md-2 ringoIcon">
                             <i class="mdi mdi-hand-peace"></i>
                         </div>
-                        <div class="col-md-6 text-start p-md-2 ringoIcon">
+                        <div class="col-6 col-md-6 text-start p-md-2 ringoIcon">
                             <i class="mdi mdi-peace"></i>
                         </div>
-                        <div class="col-md-1 p-1 text-start text-secondary fw-bold quoteOpen"><i
+                        <div class="col-md-1 p-1 text-start text-secondary fw-bold"><i
                                 class="mdi mdi-format-quote-open"></i>
                         </div>
-                        <div class="col-md-10 p-md-2 py-md-3 octoGarden">I'd like to be under the sea, in an octopus'
-                            garden in the shade
-                        </div>
-                        <div class="col-md-1 p-1 align-content-end text-secondary fw-bold quoteOpen">
+                        <p class="col-md-10 p-2 p-md-2 py-md-3 m-0 lyricQuote">I'd like to be under the sea, in an
+                            octopus's
+                            garden in the shade. He'd let us in, knows where we've been. In his octopus's garden, in the
+                            shade.
+                        </p>
+                        <div class="col-md-1 p-1 align-content-end text-end text-secondary fw-bold">
                             <i class="mdi mdi-format-quote-close"></i>
                         </div>
                     </div>
-                    <div class="fw-bold p-md-3 ringoQuote">-Ringo
+                    <div class="fw-bold p-md-3 p-2 ringoName">- Ringo
                         <i class="mdi mdi-star"></i>
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-4 p-md-5 p-3 align-content-center order-md-1">
-                <div>
-                    <div class="bg-light text-center p-md-3 p-3 shadow">Lorem ipsum dolor sit
+            <div class="col-12 col-md-4 p-md-5 p-4 align-content-center order-md-1">
+                <div class="bg-light text-center p-md-3 p-3 shadow">
+                    <div class="row text-center px-md-3">
+                        <div class="col-md-1 p-1 text-start text-secondary fw-bold"><i
+                                class="mdi mdi-format-quote-open"></i>
+                        </div>
+                        <p class="col-md-10 p-md-1 py-md-2 m-0 lyricQuote">When I find myself in times of trouble,
+                            Mother
+                            Mary comes to me. Speaking words of wisdom. Let it be
+                        </p>
+                        <div class="col-md-1 p-1 align-content-end text-end text-secondary fw-bold">
+                            <i class="mdi mdi-format-quote-close"></i>
+                        </div>
                     </div>
+                    <div class="fw-bold p-md-1 p-1">- Paul M.</div>
                 </div>
             </div>
-            <div class="col-12 col-md-4 p-md-5 p-3 align-content-center order-md-3">
-                <div class="bg-light text-center p-md-3 p-3 shadow">Lorem ipsum dolor sit, amet consectetur adipisicing
-                    elit. Suscipit aut saepe temporibus quia a?
+            <div class="col-12 col-md-4 p-md-5 p-4 align-content-center order-md-3">
+                <div class="bg-light text-center p-md-3 p-3 shadow">
+                    <div class="row text-center px-md-3">
+                        <div class="col-md-1 p-1 text-start text-secondary fw-bold"><i
+                                class="mdi mdi-format-quote-open"></i>
+                        </div>
+                        <p class="col-md-10 p-md-1 py-md-2 m-0 lyricQuote">How can I even try. I can never win. Hearing
+                            them, seeing them. In the state I'm in. You've got to hide your love away
+                        </p>
+                        <div class="col-md-1 p-1 align-content-end text-end text-secondary fw-bold">
+                            <i class="mdi mdi-format-quote-close"></i>
+                        </div>
+                    </div>
+                    <div class="fw-bold p-md-1 p-1">- John L.</div>
                 </div>
             </div>
-
         </section>
     </main>
 
