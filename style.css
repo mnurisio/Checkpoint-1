@@ -1,5 +1,6 @@
 :root{
     --light-text: #FFF3CD;
+    --danger-text: #FFC107;
     --main-font: "Bebas Neue", sans-serif;
 }
 
@@ -70,6 +71,17 @@
     color: var(--light-text);
     font-style: italic;
     font-size: x-large;
+}
+
+.ringoIcon{
+    font-size: xx-large;
+    color: var(--danger-text);
+    font-weight: bold;
+}
+
+.octoGarden{
+    font-style: italic;
+    font-size: large;
 }
 
 @media screen and (min-width: 768px) {
