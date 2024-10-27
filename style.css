@@ -15,10 +15,6 @@
     font-family: var(--main-font);
 }
 
-.subButton{
-    text-decoration: none;
-}
-
 .subMarine{
     font-size: xx-large;
 }
@@ -26,21 +22,7 @@
 .firstBox{
     padding: 7em;
     margin: 1em 6em 6em 6em;
-    background-color: rgba(164, 164, 73, 0.687);
 }
-
-.description{
-    text-shadow: var(--shadow);
-    margin-bottom: 1em;
-    font-size: 1.5em;
-}
-
-.coolText{
-    text-shadow: var(--shadow);
-    margin-bottom: 2em;
-    text-decoration: underline;
-}
-
 
 .enterInfo{
     text-decoration: underline;
@@ -53,10 +35,17 @@
     border-radius: 5px;
     margin: 1em 1em 1em 0;
 }
-.phoneBox{
-    padding: 1em;
-    border: 5px solid gray;
-    border-radius: 5px;
+
+.coolText{
+    text-shadow: var(--shadow);
+    margin-bottom: 2em;
+    text-decoration: underline;
+}
+
+.description{
+    text-shadow: var(--shadow);
+    margin-bottom: 1em;
+    font-size: 1.5em;
 }
 
 .bestBand{
