@@ -96,6 +96,9 @@
     font-family: var(--main-font);
 }
 
+.theFooter{
+    font-family: var(--main-font);
+}
 
 @media screen and (min-width: 768px) {
     .bg-hero{
